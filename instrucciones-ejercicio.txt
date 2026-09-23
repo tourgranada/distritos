@@ -1,0 +1,32 @@
+EJERCICIO:
+
+Práctica con la guía cultural alternativa (NO ES NECESARIO QUE FUNCIONEN LINKS NI QUE SE VEAN OTRAS PÁGINAS): 
+. Desarrollar un logotipo de la guía cultural
+
+ * Usar canva, photopea, y cualquier otra herramienta de diseño y banco de imágenes.
+ * Dejar un logotipo en png (con transparencia) y otro jpg, en color y monocromo.
+ * Utilizar en logotipo tanto en header como en footer todas aquellas ubicaciones de la página donde sea conveniente.
+
+. Desarrollar página de un distrito usando:
+
+ * HTML con etiquetas semánticas y de contenido.
+ * CSS con Estilos de fuente, modelos de caja alineando con justify-content y items-align, Backgrounds, pseudoclases hover, etc.
+
+1º Creación del proyecto: archivos y carpetas
+2º Desarrollo de la estructura, maquetación HTML y contenido
+3º Funcionalidades
+4º Diseño
+
+NOTAS:
+Seguir planteamiento de muestra
+Desarrollar un diseño coherente
+
+Muestra de un distrito
+
+para las columnas: 
+
+.contenedor-proyectos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}

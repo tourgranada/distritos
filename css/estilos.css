@@ -1,0 +1,241 @@
+
+
+body{
+	padding-left: 40px;
+	padding-right: 40px;
+	font-size: 20px;
+  background-color: 
+#F7FDFD;
+}
+.cabecera{
+position:relative;   
+padding:0px;
+margin-top:0px;
+width:1900px;
+height:auto;
+border:1px solid #ccc;
+}
+
+.caja1{
+position:absolute;		
+left:130px;               
+top:270px;
+width:130px;           
+height:auto;
+filter:drop-shadow(10px 10px 2px rgba(230, 232, 235, 0.4)); 
+}
+
+
+
+nav ul {
+  list-style-type: none;     
+  padding: 0;
+  margin: 0;
+  display: flex;               
+  justify-content: center;     
+  gap: 10px;                   
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;       
+  color: white;             
+  font-family: 'Segoe UI', Arial, sans-serif; 
+  font-size: 22px;
+  font-weight: 600;        
+  padding: 10px 20px;         
+  border-radius: 6px;          
+  transition: all 0.2s ease;  
+}
+
+
+.menu{					
+position:sticky;						
+top:0;						
+background-color:#67212B;
+padding:15px;                
+border:1px solid white;       
+z-index: 100;
+}
+
+
+.buscador{
+    width: 400px;
+    padding: 10px;
+    border: 2px solid #544040;
+    border-radius: 5px;
+}
+
+#fondo{
+	background:#406454;
+	border:2px solid rgb(84, 64, 64);
+	color:white;
+	text-align:center
+}
+
+.bg-none{
+    background-image: none;
+    border:2px solid rgb(84, 64, 64);
+    width: fit-content;
+    padding: 10px 300px;
+    text-align:left;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+     gap: 30px;
+     max-width: 1200px;
+     margin: 50px auto;
+     padding: 20px;
+     display: flex;
+     justify-content: center;
+     gap: 30px;
+}
+
+.cuadro{
+     width: 300px;
+     border: 1px solid #ccc;
+     border-radius: 10px;
+     overflow: hidden;
+     text-align: center;
+     background-color: white;
+     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+     
+}
+
+.cuadro img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.tenue{
+    color:#95aea2;
+    padding: 20px;
+    
+}
+
+.final{
+    display: flex;
+    justify-content: center;
+     gap: 30px;
+     max-width: 1200px;
+     margin: 50px auto;
+     padding: 20px;
+     display: flex;
+     justify-content: center;
+    
+}
+
+.comentario{
+     width: 500px;
+     overflow: hidden;
+     text-align: center;
+     font-size: 15px;
+     display: inline-block;
+     text-decoration: none;  
+     color: #95aea2;
+     font-family: 'Segoe UI', Arial, sans-serif; 
+     font-weight: 600;          
+}
+.redes{	
+
+width:50px;           
+height:auto;
+margin-right: 20px; /*separar los iconos un poco uno de otro*/
+margin-top: 30px; /*se mueve arriba y abajo*/
+}
+
+a {
+    color: #95aea2;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #a08274;
+}
+
+.gif-centro{
+  position: fixed;
+  bottom: 30px;
+  right: 5px;
+  width: 40px;
+  height: auto;
+	
+}
+
+.formulario {
+    width: 70%;
+    max-width:500px;
+    margin: 40px auto;
+    padding: 50px;
+    background-color: #f7f2e4;
+    border: 1px solid #3d3a35;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+    box-sizing: border-box;
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 8px;
+    font-family: Georgia, serif;
+    font-size: 17px;
+    color: #3d3a35;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="tel"],
+.formulario textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #aaa394;
+    border-radius: 8px;
+    background-color: #fffdf8;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.formulario textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.formulario input:focus,
+.formulario textarea:focus {
+    outline: none;
+    border-color: #756b5b;
+    box-shadow: 0 0 5px rgba(117, 107, 91, 0.3);
+}
+
+.formulario input[type="submit"] {
+    display: block;
+    margin: 10px auto 0;
+    padding: 12px 30px;
+    background-color: #756b5b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: Georgia, serif;
+    cursor: pointer;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #3d3a35;
+}
+
+.columna{
+display: flex;
+    gap: 30px; /* separación entre mapa y formulario */
+    align-items: flex-start;
+}
+
+.map{
+ margin-top: 100px;
+ margin-left: 80px;
+}
